@@ -9,7 +9,7 @@ latitudes = df['Latitude'].tolist()
 longitudes = df['Longitude'].tolist()
 
 # Create a gmplot object with the center of the map
-gmap = gmplot.GoogleMapPlotter(latitudes[0], longitudes[0], 10, apikey='AIzaSyBCJjOGm_E5xvcXNhLHP0dKN8bsHd_peTQ')
+gmap = gmplot.GoogleMapPlotter(latitudes[0], longitudes[0], 10, apikey='Enter Your GOOGLE MAP API KEY')
 
 # Plot the points on the map
 gmap.scatter(latitudes, longitudes, '#FF0000', size=40, marker=True)
